@@ -1,0 +1,5 @@
+S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\bin\Welcome2Deloitte_WebApp.dll
+S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\bin\Welcome2Deloitte_WebApp.pdb
+S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.csprojResolveAssemblyReference.cache
+S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.dll
+S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.pdb
