@@ -3,3 +3,8 @@ S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Delo
 S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.csprojResolveAssemblyReference.cache
 S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.dll
 S:\NewGitRepository\Arun\OnBoarding Project\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.pdb
+C:\Users\Aniruth\Documents\GitHub\OnBoardingWeb\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\bin\Welcome2Deloitte_WebApp.dll
+C:\Users\Aniruth\Documents\GitHub\OnBoardingWeb\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\bin\Welcome2Deloitte_WebApp.pdb
+C:\Users\Aniruth\Documents\GitHub\OnBoardingWeb\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.csprojResolveAssemblyReference.cache
+C:\Users\Aniruth\Documents\GitHub\OnBoardingWeb\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.dll
+C:\Users\Aniruth\Documents\GitHub\OnBoardingWeb\Welcome2Deloitte_WebApp\Welcome2Deloitte_WebApp\obj\Debug\Welcome2Deloitte_WebApp.pdb

@@ -12,7 +12,8 @@ namespace Welcome2Deloitte
     public partial class AdminReports : System.Web.UI.Page
     {
         dBaseConnection dBaseObj = new dBaseConnection();
-
+        DataSet myDataSet = new DataSet();
+        OleDbDataAdapter myAdapptor = new OleDbDataAdapter();
         protected void Page_Load(object sender, EventArgs e)
         {
             //binding data
@@ -22,8 +23,7 @@ namespace Welcome2Deloitte
 
         public void DataBind()
         {
-            DataSet myDataSet = new DataSet();
-            var myAdapptor = new OleDbDataAdapter();
+            
             
             dBaseObj.OpenDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/dbase/Welcome2Deloitte.accdb") + "; Persist Security Info=False;");
             OleDbCommand oleObj = new OleDbCommand("select * from OnBoarding", dBaseObj._dbConnection);
@@ -37,6 +37,27 @@ namespace Welcome2Deloitte
         {
             grdCustomer.PageIndex = e.NewPageIndex;
             grdCustomer.DataBind();
+        }
+
+        protected void grdCustomer_RowEditing(object sender, GridViewEditEventArgs e)
+        {
+            
+            dBaseObj.OpenDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/dbase/Welcome2Deloitte.accdb") + "; Persist Security Info=False;");
+            string query = "UPDATE OnBoarding " +
+                        "SET joining Status='4' " +
+                                  "WHERE Candidate Id ='17081177'";
+            OleDbCommand oleObj = new OleDbCommand(query, dBaseObj._dbConnection);
+            dBaseObj.CloseDbConnection();
+        }
+
+        protected void grdCustomer_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        {
+            dBaseObj.OpenDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/dbase/Welcome2Deloitte.accdb") + "; Persist Security Info=False;");
+            string query = "UPDATE OnBoarding " +
+                        "SET Final Joining_status='Enrolled' " +
+                                  "WHERE Candidate Id ='17081177'";
+            OleDbCommand oleObj = new OleDbCommand(query, dBaseObj._dbConnection);
+            dBaseObj.CloseDbConnection();
         }
     }
 }
