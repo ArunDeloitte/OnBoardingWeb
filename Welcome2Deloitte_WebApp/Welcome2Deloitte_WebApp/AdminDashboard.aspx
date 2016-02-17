@@ -1,4 +1,4 @@
-﻿    ;14<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminDashboard.aspx.cs" Inherits="Welcome2Deloitte.AdminDashboard" %>
+﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminDashboard.aspx.cs" Inherits="Welcome2Deloitte.AdminDashboard" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
  <script>    
      $(Enrolled_blr2).load({
@@ -41,7 +41,7 @@
                     <span class="progress-number" id="Enrolled_blr2"><b id="Enrolled_blr1"></b></span>
 
                     <div class="progress sm">
-                      <div class="progress-bar progress-bar-aqua" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%;"></div>
+                      <div class="progress-bar progress-bar-aqua" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%;"></div>
                     </div>
                   </div>
                   <!-- /.progress-group -->
@@ -50,7 +50,7 @@
                     <span class="progress-number"><b>310</b>/400</span>
 
                     <div class="progress sm">
-                      <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                      <div class="progress-bar progress-bar-light-blue" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
                     </div>
                   </div>
                   <!-- /.progress-group -->

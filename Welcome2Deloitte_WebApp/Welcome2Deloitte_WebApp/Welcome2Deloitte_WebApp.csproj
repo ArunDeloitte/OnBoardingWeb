@@ -67,6 +67,7 @@
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\npm.js" />
+    <Content Include="CandidateForm.aspx" />
     <Content Include="dbase\Welcome2Deloitte.accdb" />
     <Content Include="Default.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
@@ -137,6 +138,7 @@
     <Content Include="ITSDashboard.aspx" />
     <Content Include="ITSDefault.aspx" />
     <Content Include="ITSReport.aspx" />
+    <Content Include="LoginPage.aspx" />
     <Content Include="plugins\bootstrap-slider\bootstrap-slider.js" />
     <Content Include="plugins\bootstrap-slider\slider.css" />
     <Content Include="plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.js" />
@@ -952,6 +954,20 @@
     <Compile Include="AdminReports.aspx.designer.cs">
       <DependentUpon>AdminReports.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Candidate.Master.cs">
+      <DependentUpon>Candidate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Candidate.Master.designer.cs">
+      <DependentUpon>Candidate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateForm.aspx.cs">
+      <DependentUpon>CandidateForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CandidateForm.aspx.designer.cs">
+      <DependentUpon>CandidateForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="dBaseConnection.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -994,6 +1010,13 @@
     </Compile>
     <Compile Include="ITSUser.Master.designer.cs">
       <DependentUpon>ITSUser.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestGrid.aspx.cs">
@@ -1042,6 +1065,7 @@
     <Content Include="Scripts\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Admin.Master" />
     <Content Include="ITSUser.Master" />
+    <Content Include="Candidate.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

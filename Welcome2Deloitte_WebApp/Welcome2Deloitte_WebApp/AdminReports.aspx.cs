@@ -26,10 +26,10 @@ namespace Welcome2Deloitte
             
             
             dBaseObj.OpenDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/dbase/Welcome2Deloitte.accdb") + "; Persist Security Info=False;");
-            OleDbCommand oleObj = new OleDbCommand("select * from OnBoarding", dBaseObj._dbConnection);
-            dBaseObj.CloseDbConnection();
+            OleDbCommand oleObj = new OleDbCommand("select * from OnBoarding", dBaseObj._dbConnection);            
             myAdapptor.SelectCommand = oleObj;
             myAdapptor.Fill(myDataSet, "OnBoarding");
+            dBaseObj.CloseDbConnection();
             grdCustomer.DataSource = myDataSet.Tables["OnBoarding"];
             grdCustomer.DataBind();
         }
